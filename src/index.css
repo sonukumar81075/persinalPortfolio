@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust this for the movement distance */
+  }
+}
+
+.animate-move-up-down {
+  animation: moveUpDown 2s ease-in-out infinite;
+}
