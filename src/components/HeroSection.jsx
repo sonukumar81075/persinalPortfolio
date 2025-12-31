@@ -99,7 +99,7 @@ const HeroSection = () => {
           <div className="md:w-1/2 flex justify-end md:mt-8 md:py-24 py-6">
             <div className="w-72 h-72 md:w-96 md:h-96 rounded-full   border-yellow-600 overflow-hidden shadow-xl shadow-amber-400 animate-move-up-down">
               <img
-                src="./public/images/right_image.png"
+                src="/images/right_image.png"
                 alt="John Lee"
                 className="w-full h-full object-cover rounded-full"
               />
