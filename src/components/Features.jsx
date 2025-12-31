@@ -21,9 +21,7 @@ const Features = () => {
         ))}
       </div>
     </div>
-    {/* <div className="w-full h-[0.5px] items-center bg-[#212428] flex justify-center">
-      <div className="h-[0.5px] bg-black w-7xl"></div>
-    </div> */}
+  
     </>
   );
 };

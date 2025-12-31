@@ -5,7 +5,7 @@ import HeroSection from './components/HeroSection';
 import Features from './components/Features';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import SplashCursor from './components/SplashCursor';
+// import SplashCursor from './components/SplashCursor';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Reviews from './components/Reviews';
@@ -90,9 +90,9 @@ const App = () => {
         <Contact />
       </motion.section>
 
-      <section id="cursor">
+      {/* <section id="cursor">
         <SplashCursor />
-      </section> 
+      </section>  */}
     </div>
   );
 };

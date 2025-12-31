@@ -20,16 +20,24 @@ const Navbar = () => {
   return (
     <nav className="bg-[#212428] text-white p-4 fixed w-full top-0 z-10 shadow-lg">
       <div className="max-w-full 2xl:px-24 mx-auto flex justify-between items-center">
-       
-        <div className="cursor-pointer flex items-center  gap-3"   onClick={() => handleScroll("home")}>
+        <div
+          className="cursor-pointer flex items-center gap-3"
+          onClick={() => handleScroll("home")}
+        >
+          {/* Logo wrapper */}
+          <div className="w-14 h-14 rounded-full border border-gray-600 flex items-center justify-center">
             <img
-              src="https://ca.slack-edge.com/TT3EFSV60-U07BZK05QV8-e097688c51db-512"
+              src="./../../public/images/right_image.png"
               alt="user image"
-              className="w-14 h-14 rounded-full border-2 border-gray-500 shadow-[0_4px_6px_rgba(0,0,0,0.1)]"
+              className="w-12 h-12 rounded-full object-cover"
             />
-             <span className="text-[#C5D0DE]">INBIO</span>
           </div>
-        
+
+          {/* Brand text */}
+          <span className="text-[#C5D0DE] font-medium tracking-wide">
+            INBIO
+          </span>
+        </div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
@@ -113,12 +121,12 @@ const Navbar = () => {
         <div className="flex justify-between items-start  ">
           <div className="">
             <div className="">
-            <img
-              src="https://ca.slack-edge.com/TT3EFSV60-U07BZK05QV8-e097688c51db-512"
-              alt="user image"
-              className="w-16 h-16 rounded-full border-2 border-gray-500 shadow-[0_4px_6px_rgba(0,0,0,0.1)]"
-            />
-          </div>
+              <img
+                src="https://ca.slack-edge.com/TT3EFSV60-U07BZK05QV8-e097688c51db-512"
+                alt="user image"
+                className="w-16 h-16 rounded-full border-2 border-gray-500 shadow-[0_4px_6px_rgba(0,0,0,0.1)]"
+              />
+            </div>
 
             <p className="py-2 text-lg text-gray-400 ">
               inbio is a personal portfolio template. You can customize all.
@@ -152,7 +160,7 @@ const Navbar = () => {
               onClick={() => handleScroll("skills", setIsMenuOpen(false))}
               className="hover:text-yellow-500  text-[#C5D0DE]  cursor-pointer text-sm uppercase"
             >
-                SKILLS
+              SKILLS
             </button>
           </li>
           <li>
@@ -168,7 +176,7 @@ const Navbar = () => {
               onClick={() => handleScroll("projects", setIsMenuOpen(false))}
               className="hover:text-yellow-500  text-[#C5D0DE]  cursor-pointer text-sm uppercase"
             >
-                PROJECTS
+              PROJECTS
             </button>
           </li>
           <li>
@@ -176,7 +184,7 @@ const Navbar = () => {
               onClick={() => handleScroll("reviews", setIsMenuOpen(false))}
               className="hover:text-yellow-500  text-[#C5D0DE]  cursor-pointer text-sm uppercase"
             >
-                REVIEWS
+              REVIEWS
             </button>
           </li>
           <li>

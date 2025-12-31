@@ -73,25 +73,37 @@ const HeroSection = () => {
                 </p>
                 <div className="flex md:gap-6 gap-12">
                   {icons.map((icon, index) => (
-                    <button
+                    <Link
                       key={index}
-                      className="bg-[#212428] border border-gray-800 hover:text-yellow-500 shadow-[0_4px_6px_0px_rgba(255,255,255,0.1)] p-4 rounded-lg transition-transform duration-300 transform hover:translate-y-[-3px] w-14 h-14"
+                      to={icon.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-[#212428] border border-gray-800 hover:text-yellow-500 
+                 shadow-[0_4px_6px_0px_rgba(255,255,255,0.1)] 
+                 p-4 rounded-lg transition-transform duration-300 
+                 transform hover:-translate-y-1 w-14 h-14 
+                 flex items-center justify-center"
                     >
-                      <img src={icon.src} alt={icon.alt} className="w-6 h-6 object-cover" />
-                    </button>
+                      <img
+                        src={icon.src}
+                        alt={icon.alt}
+                        className="w-6 h-6 object-contain"
+                      />
+                    </Link>
                   ))}
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Right Image */}
-          <div className="md:w-1/2 flex justify-end md:mt-8 md:py-24 py-6  ">
-            <img
-              src="https://ca.slack-edge.com/TT3EFSV60-U07BZK05QV8-e097688c51db-512"
-              alt="Jone Lee"
-              className="rounded-full md:rounded-full shadow-lg w-72 md:w-96 object-cover animate-move-up-down"
-            />
+          <div className="md:w-1/2 flex justify-end md:mt-8 md:py-24 py-6">
+            <div className="w-72 h-72 md:w-96 md:h-96 rounded-full   border-yellow-600 overflow-hidden shadow-xl shadow-amber-400 animate-move-up-down">
+              <img
+                src="./../../public/images/right_image.png"
+                alt="John Lee"
+                className="w-full h-full object-cover rounded-full"
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -81,15 +81,17 @@ const Portfolio = () => {
             width={1200}
             footer={null}
             centered
-            bodyStyle={{
+          styles={{
+            body: {
               backgroundColor: "#212428",
               padding: "2rem",
               borderRadius: "8px",
               margin: "-20px",
-            }}
-            maskStyle={{
+            },
+            mask: {
               backgroundColor: "rgba(0,0,0,0.8)",
-            }}
+            },
+          }}
             closeIcon={
               <CloseOutlined style={{ color: "white", fontSize: "16px" }} />
             }

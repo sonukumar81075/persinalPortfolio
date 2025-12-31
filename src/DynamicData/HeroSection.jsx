@@ -1,18 +1,37 @@
 export const HeroSectionData = {
-    "Welcome" : "  Welcome to my world",
-    "titlestart":"  Hi, I'm ",
-    "titlecenter":"  Sonu Kumar",
-    "titleEnd":"  a Designer",
-    "description":"I use animation as a third dimension to simplify experiences and guide users through each interaction. I don’t add motion just for decoration; every animation serves a purpose, enhancing the user journey across the full stack—MongoDB, Express, React, and Node.",
-    "facebookicon":"  Find with me ",
-    "figmaicon":"  Best skill on ",
-  }
+  'Welcome': "WELCOME TO MY WORLD",
 
-    export const icons = [
-      { src: "https://inbio-react.netlify.app/static/27bcf2059d533d3e63cab931682364bf/b529c/icons-01.webp", alt: "Icon 1" },
-      { src: "https://inbio-react.netlify.app/static/75c0b7c01df1ddb420d9dcad9cd7ea30/71e7c/icons-02.webp", alt: "Icon 2" },
-      { src: "https://inbio-react.netlify.app/static/79d576fbc92699097ecb8d44396d0d31/fa9ef/icons-03.webp", alt: "Icon 3" },
-    ];
+  'titlestart': "Hi, I'm ",
+  'titlecenter': "Sonu Kumar",
+  'titleEnd': " a MERN Stack Developer",
+
+  'description':
+    "I am a passionate MERN Stack Developer with 2+ years of experience in building modern, scalable, and high-performance web applications. I specialize in crafting seamless user experiences and robust backend systems using MongoDB, Express.js, React.js, and Node.js. I focus on clean code, performance optimization, and delivering real-world solutions that create impact.",
+
+  'facebookicon': "Find with me",
+  'figmaicon': "Best skill on",
+};
+
+
+ export const icons = [
+  {
+    src: "https://inbio-react.netlify.app/static/27bcf2059d533d3e63cab931682364bf/b529c/icons-01.webp",
+    alt: "InVision",
+    // link: "https://www.figma.com/files/team/1273872583014740278/trashed?fuid=1273872580975553683",
+  },
+  {
+    src: "https://inbio-react.netlify.app/static/75c0b7c01df1ddb420d9dcad9cd7ea30/71e7c/icons-02.webp",
+    alt: "Sketch",
+    // link: "https://www.figma.com/files/team/1273872583014740278/trashed?fuid=1273872580975553683",
+  },
+  {
+    src: "https://inbio-react.netlify.app/static/79d576fbc92699097ecb8d44396d0d31/fa9ef/icons-03.webp",
+    alt: "Figma",
+    link: "https://www.figma.com/files/team/1273872583014740278/trashed?fuid=1273872580975553683",
+  },
+];
+
+
     export const Socialicons = [
       {
         id: 1,
