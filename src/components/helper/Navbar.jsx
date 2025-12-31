@@ -27,7 +27,7 @@ const Navbar = () => {
           {/* Logo wrapper */}
           <div className="w-14 h-14 rounded-full border border-gray-600 flex items-center justify-center">
             <img
-              src="./../../public/images/right_image.png"
+               src="/images/right_image.png"
               alt="user image"
               className="w-12 h-12 rounded-full object-cover"
             />
