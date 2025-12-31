@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <>
       <div className="bg-[#212428] text-white min-h-screen flex items-center justify-center px-8 pt-20">
-        <div className="max-w-7xl w-full flex flex-col md:flex-row items-center">
+        <div className="max-w-7xl w-full flex flex-col md:flex-row items-center sm:pt-0 pt-8"> 
           {/* Left Content */}
           <div className="md:w-1/2 text-center md:text-left md:order-0 order-2">
             <p className="text-sm text-gray-400 py-3 tracking-wide uppercase">

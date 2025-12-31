@@ -25,7 +25,7 @@ const Navbar = () => {
           onClick={() => handleScroll("home")}
         >
           {/* Logo wrapper */}
-          <div className="w-14 h-14 rounded-full border border-gray-600 flex items-center justify-center">
+          <div className="w-12 h-12 rounded-full border border-gray-600 flex items-center justify-center">
             <img
                src="/images/right_image.png"
               alt="user image"
@@ -35,7 +35,7 @@ const Navbar = () => {
 
           {/* Brand text */}
           <span className="text-[#C5D0DE] font-medium tracking-wide">
-            INBIO
+            PORTFOLIO
           </span>
         </div>
 
