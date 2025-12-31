@@ -11,13 +11,13 @@ const HeroSection = () => {
   return (
     <>
       <div className="bg-[#212428] text-white min-h-screen flex items-center justify-center px-8 pt-20">
-        <div className="max-w-7xl w-full flex flex-col md:flex-row items-center sm:pt-0 pt-8"> 
+        <div className="container lg:px-12  w-full flex flex-col md:flex-row items-center sm:pt-0 pt-8"> 
           {/* Left Content */}
           <div className="md:w-1/2 text-center md:text-left md:order-0 order-2">
             <p className="text-sm text-gray-400 py-3 tracking-wide uppercase">
               {HeroSectionData.Welcome}
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mt-2">
+            <h1 className="text-3xl 2xl:text-5xl font-bold mt-2">
               {HeroSectionData.titlestart}{" "}
               <span className="text-yellow-500">
                 {HeroSectionData.titlecenter}
@@ -42,12 +42,12 @@ const HeroSection = () => {
                 />
               </span>
             </h1>
-            <p className="text-gray-400 mt-4  py-3 text-lg">
+            <p className="text-gray-400 2xl:mt-4 mt-2  py-3 2xl:text-lg">
               {HeroSectionData.description}
             </p>
 
             {/* Social & Skills */}
-            <div className="py-6 md:mt-16   items-center flex flex-col md:flex-row md:gap-28 md:space-y-0 space-y-6">
+            <div className="py-6 2xl:mt-16 md:mt-4  items-center flex flex-col md:flex-row md:gap-28 md:space-y-0 space-y-6">
               {/* Social Icons */}
               <div>
                 <p className="text-gray-400 text-sm text-start mb-4">
@@ -59,7 +59,7 @@ const HeroSection = () => {
                       key={icon.id}
                       target="_blank"
                       to={icon.to}
-                      className="bg-[#212428] border border-gray-800 hover:text-yellow-500 shadow-[0_4px_6px_0px_rgba(255,255,255,0.1)] p-4 rounded-lg transition-transform duration-300 transform hover:translate-y-[-3px]"
+                      className="bg-[#212428] border border-gray-800 hover:text-yellow-500 shadow-[0_4px_6px_0px_rgba(255,255,255,0.1)] p-3 2xl:p-4 rounded-lg transition-transform duration-300 transform hover:translate-y-[-3px]"
                     >
                       {icon.svg}
                     </Link>
@@ -81,7 +81,7 @@ const HeroSection = () => {
                       className="bg-[#212428] border border-gray-800 hover:text-yellow-500 
                  shadow-[0_4px_6px_0px_rgba(255,255,255,0.1)] 
                  p-4 rounded-lg transition-transform duration-300 
-                 transform hover:-translate-y-1 w-14 h-14 
+                 transform hover:-translate-y-1 2xl:w-14 w-12 2xl:h-14 h-12 
                  flex items-center justify-center"
                     >
                       <img
@@ -96,7 +96,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className="md:w-1/2 flex justify-end md:mt-8 md:py-24 py-6">
+          <div className="md:w-1/2 flex justify-end md:mt-0 2xl:mt-8 md:py-24 py-6">
             <div className="w-72 h-72 md:w-96 md:h-96 rounded-full   border-yellow-600 overflow-hidden shadow-xl shadow-amber-400 animate-move-up-down">
               <img
                 src="/images/right_image.png"

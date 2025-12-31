@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-[#212428] text-white p-4 fixed w-full top-0 z-10 shadow-lg">
-      <div className="max-w-full 2xl:px-24 mx-auto flex justify-between items-center">
+      <div className="container lg:px-12 2xl:px-24 mx-auto flex justify-between items-center">
         <div
           className="cursor-pointer flex items-center gap-3"
           onClick={() => handleScroll("home")}
@@ -227,7 +227,7 @@ export default Navbar;
 // const Navbar = () => {
 //   return (
 //     <nav className="bg-[#212428] text-white p-4 fixed w-full top-0 z-10 shadow-lg">
-//       <div className="max-w-7xl mx-auto flex justify-between items-center">
+//       <div className="container lg:px-12 mx-auto flex justify-between items-center">
 //         <div className="text-xl font-bold">
 //           <Link to="/">INBIO</Link>
 //         </div>

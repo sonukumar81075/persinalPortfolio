@@ -5,14 +5,14 @@ import { SkillsData } from "../DynamicData/Features";
 const Skills = () => {
   return (
     <div className="bg-[#212428] min-h-screen items-center flex flex-col justify-center  text-white pt-12  px-6">
-      {/* <div className="max-w-7xl mx-auto py-16 text-center">
+      {/* <div className="container lg:px-12 mx-auto py-16 text-center">
         <h3 className="text-yellow-500 text-sm font-semibold uppercase">
           {SkillsData.Heading}
         </h3>
         <h2 className="text-4xl font-bold mt-2">{SkillsData.title}</h2>
       </div> */}
 
-      <div className="grid max-w-7xl mx-auto grid-cols-1 lg:grid-cols-7 gap-[2rem] items-center">
+      <div className="grid container lg:px-12 mx-auto grid-cols-1 lg:grid-cols-7 gap-[2rem] items-center">
         <div className="col-span-3 items-start space-y-3 flex justify-center flex-col h-full">
           <p className="text-yellow-500">My Skills</p>
           <h1 className="text-white">  Let’s Explore My <br /> Technical Skills & Experience</h1>

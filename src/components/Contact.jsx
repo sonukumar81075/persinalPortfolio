@@ -34,13 +34,13 @@ const Contact = () => {
   return (
     <>
       <div className="min-h-screen bg-[#212428] flex flex-col items-center justify-center px-6 md:pt-12  pb-24">
-        <div className="max-w-7xl mx-auto pb-12 text-center ">
+        <div className="container lg:px-12 mx-auto pb-12 text-center ">
           <h3 className="text-yellow-500 text-sm font-semibold uppercase">
             {ContactData.title}
           </h3>
           <h2 className="text-4xl font-bold mt-2 text-white">{ContactData.Heading}</h2>
         </div>
-        <div className="grid md:grid-cols-3 gap-8 w-full max-w-7xl ">
+        <div className="grid md:grid-cols-3 gap-8 w-full container lg:px-12 ">
           {/* Profile Card */}
           <div className="bg-[#24272b] p-6 rounded-xl border-l-[1px] border-yellow-500 shadow-[5px_6px_0px_0px_rgba(255,255,255,0.1)] ">
             <img

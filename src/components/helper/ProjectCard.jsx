@@ -22,12 +22,7 @@ export default function ProjectCard({
       <div className={`${cardnumber == 2 || cardnumber == 4 ? 'md:order-1' : 'md:order-2'}`}>
         <p className="text-white text-[25px] ">{title}</p>
         <p className="text-white opacity-65 text-[15px] mt-[1rem] ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eius
-          perspiciatis. Ab sequi necessitatibus cumque, fuga qui culpa, neque
-          velit placeat debitis praesentium ipsam aut reiciendis natus,
-          aspernatur maiores! Laborum? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Nostrum sequi hic vero. Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit. Accusamus magni vel numquam?
+         I built a modern freelance marketplace web application that allows clients to post projects and freelancers to browse and place bids. The platform features a clean dashboard, structured project listings, and a responsive user interface focused on usability and performance. Built using modern frontend technologies with scalability in mind.
         </p>
         <div className="mt-[1.3rem] grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-[2rem]">
           <h1 className="bg-[#212428] border-r-2 border-l-2 border-yellow-500 hover:text-yellow-500 shadow-[0_4px_6px_0px_rgba(255,255,255,0.1)] p-3 flex justify-center rounded-lg transition-transform duration-300 transform hover:translate-y-[-3px]">

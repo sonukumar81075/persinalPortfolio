@@ -4,11 +4,11 @@ const Features = () => {
   return (
     <>
     <div className="bg-[#212428] w-full min-h-screen text-white pt-24  px-6">
-      <div className="max-w-7xl mx-auto py-6 text-center">
+      <div className="container lg:px-12 mx-auto py-6 text-center">
         <h3 className="text-yellow-500 text-sm font-semibold uppercase">{FeaturesData.Heading}</h3>
         <h2 className="text-4xl font-bold mt-2">{FeaturesData.title}</h2>
       </div>
-      <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3  gap-12 mt-10 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3  gap-12 mt-10 container lg:px-12 mx-auto">
         {Feature.map((service, index) => (
           <div
             key={index}
