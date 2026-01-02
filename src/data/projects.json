@@ -1,0 +1,106 @@
+{
+  "header": {
+    "eyebrow": "Recent Work",
+    "title": "projects",
+    "description": "Selected builds crafted for smooth UX, responsive layouts, and clean presentation."
+  },
+  "items": [
+    {
+      "id": "project-1",
+      "title": "Freelancer Project Bidding Platform",
+      "description": "I built a modern freelance marketplace web application that allows clients to post projects and freelancers to browse and place bids. The platform features a clean dashboard, structured project listings, and a responsive user interface focused on usability and performance. Built using modern frontend technologies with scalability in mind.",
+      "projectUrl": "https://app.bidvoty.space/",
+      "techStack": [
+        { "name": "React", "url": "https://react.dev" },
+        { "name": "Node.js", "url": "https://nodejs.org" },
+        { "name": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "name": "MongoDB", "url": "https://www.mongodb.com" }
+      ],
+      "images": [
+        "/images/project1/Screenshot_3.png",
+        "/images/project1/Screenshot_22.png",
+        "/images/project1/Screenshot_23.png",
+        "/images/project1/Screenshot_24.png",
+        "/images/project1/Screenshot_25.png",
+        "/images/project1/Screenshot_26.png",
+        "/images/project1/Screenshot_27.png",
+        "/images/project1/Screenshot_28.png",
+        "/images/project1/Screenshot_29.png"
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Neoteric Properties",
+      "description": "I built a modern real estate website that allows users to browse properties, view details, and contact agents. The platform features a clean dashboard, structured property listings, and a responsive user interface focused on usability and performance. Built using modern frontend technologies with scalability in mind.",
+      "projectUrl": "https://neotericproperties.in/",
+      "techStack": [
+        { "name": "React", "url": "https://react.dev" },
+        { "name": "Next.js", "url": "https://nextjs.org" },
+        { "name": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "name": "TypeScript", "url": "https://www.typescriptlang.org" }
+      ],
+      "images": [
+        "/images/project2/Screenshot_1.png",
+        "/images/project2/Screenshot_2.png",
+        "/images/project2/Screenshot_3.png",
+        "/images/project2/Screenshot_4.png",
+        "/images/project2/Screenshot_5.png",
+        "/images/project2/Screenshot_6.png",
+        "/images/project2/Screenshot_7.png",
+        "/images/project2/Screenshot_8.png",
+        "/images/project2/Screenshot_9.png"
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "CarringAI Clinic Dashboard",
+      "description": "Clinic command center with booking queues, assessment scheduling, and HIPAA-aware patient/doctor management. Includes dashboard KPIs, queue status, and quick actions for assessments and reporting.",
+      "projectUrl": "https://caringai.bidvoty.space",
+      "techStack": [
+        { "name": "Next.js", "url": "https://nextjs.org" },
+        { "name": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "name": "TypeScript", "url": "https://www.typescriptlang.org" },
+        { "name": "Node.js", "url": "https://nodejs.org" }
+      ],
+      "images": [
+        "/images/project3/Screenshot_1.png",
+        "/images/project3/Screenshot_2.png",
+        "/images/project3/Screenshot_3.png",
+        "/images/project3/Screenshot_4.png",
+        "/images/project3/Screenshot_5.png",
+        "/images/project3/Screenshot_6.png",
+        "/images/project3/Screenshot_7.png",
+        "/images/project3/Screenshot_8.png",
+        "/images/project3/Screenshot_9.png",
+        "/images/project3/Screenshot_10.png",
+        "/images/project3/Screenshot_11.png",
+        "/images/project3/Screenshot_12.png"
+      ]
+    },
+    {
+      "id": "project-4",
+      "title": "StopDelay · Flight Compensation",
+      "description": "Landing and intake flow for airline delay/cancellation compensation. Spanish-first UX, clear hero CTA, eligibility inputs, and trust badges for EC261/Montreal compliance to boost conversions.",
+      "projectUrl": "https://www.stopdelay.com/en",
+      "techStack": [
+        { "name": "Next.js", "url": "https://nextjs.org" },
+        { "name": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "name": "TypeScript", "url": "https://www.typescriptlang.org" },
+        { "name": "i18n", "url": "https://www.i18next.com" }
+      ],
+      "images": [
+        "/images/project4/Screenshot_1.png",
+        "/images/project4/Screenshot_2.png",
+        "/images/project4/Screenshot_3.png",
+        "/images/project4/Screenshot_4.png",
+        "/images/project4/Screenshot_5.png",
+        "/images/project4/Screenshot_6.png",
+        "/images/project4/Screenshot_7.png",
+        "/images/project4/Screenshot_8.png",
+        "/images/project4/Screenshot_9.png",
+        "/images/project4/Screenshot_10.png",
+        "/images/project4/Screenshot_11.png"
+      ]
+    }
+  ]
+}

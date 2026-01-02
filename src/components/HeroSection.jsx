@@ -10,14 +10,14 @@ import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <>
-      <div className="bg-[#212428] text-white min-h-screen flex items-center justify-center px-8 pt-20">
-        <div className="container lg:px-12  w-full flex flex-col md:flex-row items-center sm:pt-0 pt-8"> 
+      <div className="section-shell flex items-center justify-center sm:pt-0">
+        <div className="container lg:px-12 w-full flex flex-col md:flex-row items-center  "> 
           {/* Left Content */}
           <div className="md:w-1/2 text-center md:text-left md:order-0 order-2">
             <p className="text-sm text-gray-400 py-3 tracking-wide uppercase">
               {HeroSectionData.Welcome}
             </p>
-            <h1 className="text-3xl 2xl:text-5xl font-bold mt-2">
+            <h1 className="text-3xl 2xl:text-5xl font-bold mt-2 mb-[10px]">
               {HeroSectionData.titlestart}{" "}
               <span className="text-yellow-500">
                 {HeroSectionData.titlecenter}

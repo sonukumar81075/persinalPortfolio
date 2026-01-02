@@ -1,0 +1,47 @@
+{
+  "header": {
+    "eyebrow": "Experience & Education",
+    "title": "Career Timeline"
+  },
+  "experience": [
+    {
+      "duration": "Jul 2024 - Present",
+      "role": "MERN Stack Developer",
+      "company": "Lytechx Digital Pvt. Ltd · Jaipur",
+      "summary": "Full-time · 1 yr 7 mos"
+    },
+    {
+      "duration": "Aug 2023 - Oct 2023",
+      "role": "MERN Stack Developer",
+      "company": "Aladdin Digital Solutions · On-site",
+      "summary": "Jaipur, Rajasthan, India · 3 mos"
+    },
+    {
+      "duration": "January 2023 - June 2023",
+      "role": "Web Developer",
+      "company": "Internship · TechnoGlobe, Jaipur",
+      "summary": "Worked on React, Node, MongoDB"
+    }
+  ],
+  "education": [
+    {
+      "duration": "2020 - 2022",
+      "degree": "Bachelor of Arts",
+      "school": "MDSU University · Ajmer",
+      "notes": "Maharshi Dayanand Saraswati University, Ajmer"
+    },
+    {
+      "duration": "2019",
+      "degree": "12th",
+      "school": "Govt-Sen-Sec School Jeewana · RBSE",
+      "notes": "Percentage - 72.00%"
+    },
+    {
+      "duration": "2017",
+      "degree": "10th",
+      "school": "Govt-Sen-Sec School Jeewana · RBSE",
+      "notes": "Percentage - 67.00%"
+    }
+  ]
+}
+

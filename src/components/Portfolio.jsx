@@ -20,14 +20,14 @@ const Portfolio = () => {
 
   return (
     <>
-      <div className="bg-[#212428] min-h-screen  text-white pt-24   md:px-6 px-2">
-        <div className="container lg:px-12 mx-auto py-6 text-center">
+      <div className="section-shell">
+        <div className="container lg:px-12 mx-auto text-center">
           <h3 className="text-yellow-500 text-sm font-semibold uppercase">
             {ServicesData.title}
           </h3>
-          <h2 className="text-4xl font-bold mt-2">{ServicesData.Heading}</h2>
+          <h2 className="text-4xl font-bold mt-2 mb-[10px]">{ServicesData.Heading}</h2>
         </div>
-        <div className="min-h-screen bg-[#212428] text-white p-4">
+        <div className="p-4">
           {/* Services Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-12 mt-10 container lg:px-12 mx-auto ">
             {Services.map((service, index) => (

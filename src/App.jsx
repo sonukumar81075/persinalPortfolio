@@ -1,98 +1,31 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import Navbar from './components/helper/Navbar';
-import HeroSection from './components/HeroSection';
-import Features from './components/Features';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-// import SplashCursor from './components/SplashCursor';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Reviews from './components/Reviews';
-
-const sectionVariants = {
-  hidden: { opacity: 0, y: 50 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
-};
+import React from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import Navbar from "./components/helper/Navbar";
+import HeroSection from "./components/HeroSection";
+import Features from "./components/Features";
+import Contact from "./components/Contact";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import CV from "./components/CV";
 
 const App = () => {
   return (
-    <div className="bg-white   text-white">
+    <div className="bg-white text-white min-h-screen">
       <Navbar />
-      
-      <motion.section 
-        id="home" 
-        initial="hidden" 
-        whileInView="visible" 
-        viewport={{ once: true }} 
-        variants={sectionVariants}
-      >
-        <HeroSection />
-      </motion.section>
-
-      <motion.section 
-        id="features" 
-        initial="hidden" 
-        whileInView="visible" 
-        viewport={{ once: true }} 
-        variants={sectionVariants}
-      >
-        <Features />
-      </motion.section>
-
-      <motion.section 
-        id="skills" 
-        initial="hidden" 
-        whileInView="visible" 
-        viewport={{ once: true }} 
-        variants={sectionVariants}
-      >
-        <Skills />
-      </motion.section> 
-
-      <motion.section 
-        id="portfolio" 
-        initial="hidden" 
-        whileInView="visible" 
-        viewport={{ once: true }} 
-        variants={sectionVariants}
-      >
-        <Portfolio />
-      </motion.section>
-
-      <motion.section 
-        id="projects" 
-        initial="hidden" 
-        whileInView="visible" 
-        viewport={{ once: true }} 
-        variants={sectionVariants}
-      >
-        <Projects />
-      </motion.section>
-
-      <motion.section 
-        id="reviews" 
-        initial="hidden" 
-        whileInView="visible" 
-        viewport={{ once: true }} 
-        variants={sectionVariants}
-      >
-        <Reviews />
-      </motion.section>
-
-      <motion.section 
-        id="contact" 
-        initial="hidden" 
-        whileInView="visible" 
-        viewport={{ once: true }} 
-        variants={sectionVariants}
-      >
-        <Contact />
-      </motion.section>
-
-      {/* <section id="cursor">
-        <SplashCursor />
-      </section>  */}
+      <main className="pt-14">
+        <Routes>
+          <Route path="/" element={<HeroSection />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/cv" element={<CV />} />
+          <Route path="/features" element={<Features />} />
+          <Route path="/projects" element={<Projects />} />
+          {/* <Route path="/reviews" element={<Reviews />} /> */}
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </main>
     </div>
   );
 };

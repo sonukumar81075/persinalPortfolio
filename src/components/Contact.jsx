@@ -33,13 +33,13 @@ const Contact = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-[#212428] flex flex-col items-center justify-center px-6 md:pt-12  pb-24">
-        <div className="container lg:px-12 mx-auto pb-12 text-center ">
+      <div className="section-shell flex flex-col items-center justify-center">
+        {/* <div className="container lg:px-12 mx-auto text-center mb-[40px]">
           <h3 className="text-yellow-500 text-sm font-semibold uppercase">
             {ContactData.title}
           </h3>
-          <h2 className="text-4xl font-bold mt-2 text-white">{ContactData.Heading}</h2>
-        </div>
+          <h2 className="text-4xl font-bold mt-2 mb-[10px] text-white">{ContactData.Heading}</h2>
+        </div> */}
         <div className="grid md:grid-cols-3 gap-8 w-full container lg:px-12 ">
           {/* Profile Card */}
           <div className="bg-[#24272b] p-6 rounded-xl border-l-[1px] border-yellow-500 shadow-[5px_6px_0px_0px_rgba(255,255,255,0.1)] ">
@@ -54,13 +54,13 @@ const Contact = () => {
             </h3>
             <p className="text-gray-400">{ContactData.postname}</p>
             <p className="text-gray-400 mt-2">
-             {ContactData.description}
+              {ContactData.description}
             </p>
             <p className="text-white mt-4">
-              {ContactData.phone}  
+              {ContactData.phone}
             </p>
             <p className="text-white">
-            {ContactData.email}
+              {ContactData.email}
             </p>
 
             <div className="py-6">
@@ -68,17 +68,17 @@ const Contact = () => {
                 {HeroSectionData.facebookicon}
               </p>
               <div className="flex md:gap-6 gap-12">
-                  {Socialicons.map((icon) => (
-                    <Link
-                      key={icon.id}
-                      target="_blank"
-                      to={icon.to}
-                      className="bg-[#212428] border border-gray-800 text-white hover:text-yellow-500 shadow-[0_4px_6px_0px_rgba(255,255,255,0.1)] p-4 rounded-lg transition-transform duration-300 transform hover:translate-y-[-3px]"
-                    >
-                      {icon.svg}
-                    </Link>
-                  ))}
-                </div>
+                {Socialicons.map((icon) => (
+                  <Link
+                    key={icon.id}
+                    target="_blank"
+                    to={icon.to}
+                    className="bg-[#212428] border border-gray-800 text-white hover:text-yellow-500 shadow-[0_4px_6px_0px_rgba(255,255,255,0.1)] p-4 rounded-lg transition-transform duration-300 transform hover:translate-y-[-3px]"
+                  >
+                    {icon.svg}
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
 
@@ -116,7 +116,7 @@ const Contact = () => {
                         htmlFor="phone"
                         className="text-gray-400 mb-2 block"
                       >
-                         {ContactData.labelnnumber}
+                        {ContactData.labelnnumber}
                       </label>
                       <Field
                         id="phone"
@@ -134,7 +134,7 @@ const Contact = () => {
 
                   <div className="mt-4">
                     <label htmlFor="email" className="text-gray-400 mb-2 block">
-                    {ContactData.labelemail}
+                      {ContactData.labelemail}
                     </label>
                     <Field
                       id="email"
@@ -154,7 +154,7 @@ const Contact = () => {
                       htmlFor="subject"
                       className="text-gray-400 mb-2 block"
                     >
-                     {ContactData.labelsubject}
+                      {ContactData.labelsubject}
                     </label>
                     <Field
                       id="subject"
@@ -174,7 +174,7 @@ const Contact = () => {
                       htmlFor="message"
                       className="text-gray-400 mb-2 block"
                     >
-                       {ContactData.labelmessage}
+                      {ContactData.labelmessage}
                     </label>
                     <Field
                       as="textarea"
@@ -190,8 +190,8 @@ const Contact = () => {
                   </div>
 
                   <button className="px-4 mt-6 py-3 border-r-2 border-l-2 shadow-[0_4px_6px_0px_rgba(255,255,255,0.1)] p-3 flex justify-center  transition-transform duration-300 transform hover:translate-y-[-3px] border-yellow-500 text-white hover:bg-yellow-500 hover:text-black font-medium rounded-md">
-                  {ContactData.submitbutton}
-                    </button>
+                    {ContactData.submitbutton}
+                  </button>
                 </Form>
               )}
             </Formik>
