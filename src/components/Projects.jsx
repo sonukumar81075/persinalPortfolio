@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ProjectCard from "./helper/ProjectCard";
 import projectsData from "../data/projects.json";
 
@@ -29,12 +30,12 @@ export default function Project() {
         ))}
 
         <div className="mt-12 flex flex-wrap gap-4 items-center">
-          <a
-            href="/cv"
+          <Link
+            to="/cv"
             className="border border-yellow-500 text-yellow-500 px-4 py-2 rounded-lg hover:bg-yellow-500 hover:text-black transition text-sm font-semibold"
           >
             View Full CV
-          </a>
+          </Link>
           <a
             href="/downloads/sonu-cv.pdf"
             download

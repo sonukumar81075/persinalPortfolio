@@ -8,11 +8,11 @@ const cvData = {
     logo: "/images/right_image.png",
     location: "Dausa - Rajasthan",
     contacts: {
-        phone: "+91 80754 47771",
-        email: "sonusaini8075@gmail.com",
+        phone: "+91 81075 45771",
+        email: "sonusaini81075@gmail.com",
         linkedin: "https://www.linkedin.com/in/sonu-kumar-saini-618a29261",
-        github: "https://github.com/sonukumar8075",
-        website: "https://github.com/sonukumar8075",
+        github: "https://github.com/sonukumar81075",
+        website: "https://github.com/sonukumar81075",
     },
     about:
         "Mern Stack Developer | 1.5 Years of Experience | building high-performance web applications. Skilled in React, Next.js, Node.js, Express, and MongoDB, with strong expertise in creating secure, scalable solutions and delivering intuitive digital experiences.",
@@ -64,11 +64,18 @@ const cvData = {
             percentage: "60%",
         },
         {
-            degree: "RBSE | Senior Secondary School",
+            degree: "RBSE | 12th",
             school: "BBN.Sen.Sec.School, Ballabhgarh— 12th",
-            location: "Alwar, Rajasthan",
+            location: "Bharatpur, Rajasthan",
             year: "2019",
             percentage: "81.80%",
+        },
+        {
+            degree: "RBSE | 10th",
+            school: "Amar Jyoti Sen.Sec.School, Ballabhgarh— 10th",
+            location: "Bharatpur, Rajasthan",
+            year: "2017",
+            percentage: "63.80%",
         },
     ],
     languages: [
@@ -76,8 +83,8 @@ const cvData = {
         { name: "English", level: "Conversational" },
     ],
     hobbies:
-        "Cricket, Chess, Athletics; fitness-focused, continuous skill improvement.",
-    cvLink: "/downloads/sonu-cv.pdf",
+        "Cricket, fitness-focused, continuous skill improvement.",
+    cvLink: "/downloads/sonu.pdf.pdf",
 };
 
 const CV = () => {

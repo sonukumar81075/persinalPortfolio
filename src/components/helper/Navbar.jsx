@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HeroSectionData, Socialicons } from "../../DynamicData/HeroSection";
-import { Link, NavLink } from "react-router-dom";
-
+import { Link, NavLink } from "react-router-dom"; 
+import { useNavigate } from "react-router-dom";
 const navItems = [
   { path: "/", label: "Home" },
   { path: "/features", label: "Features" },
@@ -15,6 +15,7 @@ const navItems = [
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
   const closeMenu = () => setIsMenuOpen(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
       <div className="container lg:px-12 mx-auto flex justify-between items-center">
         <div
           className="cursor-pointer flex items-center gap-3"
-          onClick={() => handleScroll("home")}
+           onClick={() => navigate("/")}
         >
           {/* Logo wrapper */}
           <div className="w-12 h-12 rounded-full border border-gray-600 flex items-center justify-center">
