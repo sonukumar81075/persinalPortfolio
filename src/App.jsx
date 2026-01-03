@@ -8,10 +8,12 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import CV from "./components/CV";
+import SplashCursor from "./components/SplashCursor";
 
 const App = () => {
   return (
     <div className="bg-white text-white min-h-screen">
+      <SplashCursor />
       <Navbar />
       <main className="pt-14">
         <Routes>
