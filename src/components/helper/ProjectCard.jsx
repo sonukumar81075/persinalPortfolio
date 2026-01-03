@@ -17,11 +17,11 @@ export default function ProjectCard({
 
   return (
     <>
-      <div className="grid px-4 sm:px-6 mx-auto md:pt-[5rem] grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+      <div className="grid px-4 sm:px-6 mx-auto pt-[5rem] grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Main Image */}
         <div
           onClick={() => setOpen(true)}
-          className={`w-full p-4 rounded-xl cursor-pointer hover:rotate-3 transition bg-gray-800 shadow-md ${isReversed ? "lg:order-2" : "lg:order-1"}`}
+          className={`w-full sm:p-4 rounded-xl cursor-pointer hover:rotate-3 transition bg-gray-800 shadow-md ${isReversed ? "lg:order-2" : "lg:order-1"}`}
         >
           <img
             src={coverImage}
