@@ -6,10 +6,9 @@ const navItems = [
   { path: "/", label: "Home" },
   { path: "/features", label: "Features" },
   { path: "/skills", label: "Skills" },
-  { path: "/experience", label: "Experience" },
+  { path: "/experience", label: "Education & Experience" },
+  { path: "/projects", label: "Projects" }, 
   { path: "/cv", label: "Resume" },
-  { path: "/projects", label: "Projects" },
-  // { path: "/reviews", label: "Reviews" },
   { path: "/contact", label: "Contact" },
 ];
 
@@ -56,7 +55,7 @@ const Navbar = () => {
                 className={linkClass}
                 end={item.path === "/"}
               >
-                {item.label == "Resume" ? "" : item.label}
+                {item.label}
               </NavLink>
             </li>
           ))}

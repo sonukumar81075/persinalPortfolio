@@ -64,10 +64,10 @@
   export const ContactData = {
     "title" : "CONTACT",
     "Heading":"Contact With Me",
-    "username":"Nevine Acotanza",
-    "postname":"Chief Operating Officer",
+    "username":"Sonu Kumar Saini",
+    "postname":"Mern Stack Developer",
     "description":"I am available for freelance work. Connect with me via email or call.",
-    "phone":"Phone: +918107545771",
+    "phone":"Phone: +91 8107545771",
     "email":"Email: sonusaini81075@gmail.com",
     "Socialicon":"Find with me",
     "imageUrl":"https://inbio-react.netlify.app/static/5930a183f9be0c913e9d25b1318416f9/3a710/contact1.webp",

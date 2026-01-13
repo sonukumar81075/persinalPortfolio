@@ -1,1 +1,27 @@
+@keyframes floaty {
+  0% {
+    transform: translateY(0);
+    box-shadow: 0 15px 35px rgba(255, 215, 0, 0.08);
+  }
+  50% {
+    transform: translateY(-6px);
+    box-shadow: 0 25px 45px rgba(255, 215, 0, 0.16);
+  }
+  100% {
+    transform: translateY(0);
+    box-shadow: 0 15px 35px rgba(255, 215, 0, 0.08);
+  }
+}
+
+.contact-hero-glow {
+  animation: floaty 6s ease-in-out infinite;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 215, 0, 0.35);
+  border-radius: 12px;
+}
+
+.contact-hero-glow:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 28px 50px rgba(255, 215, 0, 0.22);
+}
  
